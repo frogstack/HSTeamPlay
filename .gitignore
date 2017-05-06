@@ -1,5 +1,4 @@
 *.deck
 *.exe
-trueskill/
 gameDB.json
 ratingsDB.json
