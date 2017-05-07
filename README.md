@@ -2,7 +2,7 @@ Tracks Hearthstone games you play and rates your cards relative to your opponent
 
 ## Building
 
-The current version assumes you're already generating power.log and hardcodes the path to that file on Windows. You might have to adjust that depending on what you're running. For help see [this page](https://github.com/jleclanche/fireplace/wiki/How-to-enable-logging)
+The current version assumes you're already generating power.log, which you are if you already have a tracker installed. If you've never installed a tracker, the easiest way to get this working is to install one. HSTeamPlay should be able to find your power.log file whether you're on Windows or Mac, but I'm on Windows and haven't tested it on Mac. If you find a problem, feel free to send a pull request.
 
 To build, install Go, then run `go build` in the main directory. That will generate the `HSTeamPlay` executable that you can run from a command line.
 
