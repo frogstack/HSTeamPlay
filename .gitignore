@@ -1,4 +1,5 @@
 *.deck
-*.exe
+HSTeamPlay.exe
+HSTeamPlay
 gameDB.json
 ratingsDB.json
