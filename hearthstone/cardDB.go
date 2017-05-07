@@ -3,6 +3,7 @@ package hearthstone
 import (
 	"encoding/json"
 	"io/ioutil"
+	"path"
 )
 
 type CardInfo struct {
@@ -16,7 +17,7 @@ var cardMap map[string]CardInfo
 func GetCardInfo() map[string]CardInfo {
 	if cardMap == nil {
 		cardMap = make(map[string]CardInfo)
-		file, err := ioutil.ReadFile("./cardDB.json")
+		file, err := ioutil.ReadFile(path.Join(".", "cardDB.json"))
 		check(err)
 
 		var rawCardList []map[string]*json.RawMessage

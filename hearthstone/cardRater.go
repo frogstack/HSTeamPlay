@@ -6,6 +6,7 @@ import (
 	"github.com/ChrisHines/GoSkills/skills"
 	"github.com/ChrisHines/GoSkills/skills/trueskill"
 	"os"
+	"path"
 	"sort"
 )
 
@@ -23,7 +24,7 @@ type CardRater struct {
 }
 
 func raterPath() string {
-	return "./ratingsDB.json"
+	return path.Join(".", "ratingsDB.json")
 }
 
 func trueskillGame() *skills.GameInfo {

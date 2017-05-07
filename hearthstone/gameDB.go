@@ -3,6 +3,7 @@ package hearthstone
 import (
 	"encoding/json"
 	"os"
+	"path"
 )
 
 type GameDB struct {
@@ -42,7 +43,7 @@ func (gameDB *GameDB) saveGameDB() error {
 }
 
 func gameDBPath() string {
-	return "./gameDB.json"
+	return path.Join(".", "gameDB.json")
 }
 
 func (gameDB *GameDB) AddGame(game *Game) {
