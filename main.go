@@ -35,7 +35,7 @@ func main() {
 			programfiles := os.Getenv("programfiles(x86)")
 			powerlog = path.Join(programfiles, "Hearthstone", "Logs", "Power.log")
 		} else if runtime.GOOS == "darwin" {
-			powerlog = path.Join("Applications", "Hearthstone", "Logs", "Power.log")
+			powerlog = path.Join("/Applications", "Hearthstone", "Logs", "Power.log")
 		} else {
 			panic("I don't recognize your OS. Sorry!")
 		}
