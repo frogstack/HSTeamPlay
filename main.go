@@ -1,8 +1,8 @@
 package main
 
 import (
-	"HSTeamPlay/hearthstone"
-	"HSTeamPlay/tail"
+	"github.com/frogstack/HSTeamPlay/hearthstone"
+	"github.com/frogstack/HSTeamPlay/tail"
 	"bufio"
 	"flag"
 	"os"
