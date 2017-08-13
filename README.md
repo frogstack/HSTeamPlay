@@ -19,5 +19,3 @@ With no arguments, HSTeamPlay will read your power.log line by line, look for ga
 To **show the ratings** for a set of cards, run `HSTeamPlay --rate=<cards.txt>`. Card names must be in the format `friendly/DRUID/Living Mana` or `opponent/WARRIOR/Patches The Pirate`. HSTeamPlay will show ratings for the cards and exit.
 
 To **reset the ratings** for a set of cards, run `HSTeamPlay --reset=<cards.txt>`. Card names must be in the format `friendly/DRUID/Living Mana` or `opponent/WARRIOR/Patches The Pirate`. HSTeamPlay will reset the ratings for all cards in the file with no warning and then exit. Hope you were sure.
-
-Uses TrueSkill implemented by @ChrisHines. https://github.com/ChrisHines/GoSkills
