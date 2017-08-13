@@ -1,0 +1,17 @@
+friendly/WARRIOR/N'Zoth's First Mate
+friendly/WARRIOR/Patches the Pirate
+friendly/WARRIOR/Southsea Deckhand
+friendly/WARRIOR/Upgrade!
+friendly/WARRIOR/Bloodsail Raider
+friendly/WARRIOR/Fiery War Axe
+friendly/WARRIOR/Heroic Strike
+friendly/WARRIOR/Bloodsail Cultist
+friendly/WARRIOR/Frothing Berserker
+friendly/WARRIOR/Southsea Captain
+friendly/WARRIOR/Dread Corsair
+friendly/WARRIOR/Kor'kron Elite
+friendly/WARRIOR/Mortal Strike
+friendly/WARRIOR/Naga Corsair
+friendly/WARRIOR/Spellbreaker
+friendly/WARRIOR/Arcanite Reaper
+friendly/WARRIOR/Leeroy Jenkins
