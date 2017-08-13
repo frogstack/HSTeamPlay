@@ -6,8 +6,9 @@ The current version assumes you're already generating power.log, which you are i
 
 To build, install Go, then:
 
+* Clone this repo to `$GOROOT/github.com/frogstack/HSTeamPlay/`
 * Run `go get github.com/ChrisHines/GoSkills/skills`
-* run `go build` in the main directory
+* Run `go build` in `$GOROOT/github.com/frogstack/HSTeamPlay/`
 
 Go will generate the `HSTeamPlay` executable that you can run from a command line.
 
