@@ -33,7 +33,16 @@ func (tail *Tail) processFile() {
 	offset := int64(0)
 	var err error
 
-	tail.file, err = os.Open(tail.Filename)
+	for {
+		tail.file, err = os.Open(tail.Filename)
+		if err != nil {
+			println("There was an error opening " + tail.Filename + ". Retrying in 5 seconds.")
+			time.Sleep(5 * time.Second)
+		} else {
+			break
+		}
+	}
+
 	check(err)
 	defer tail.file.Close()
 	tail.reader = bufio.NewReader(tail.file)
